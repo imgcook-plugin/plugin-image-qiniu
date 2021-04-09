@@ -25,6 +25,10 @@
     "nyc": "^14.1.1"
   },
   "dependencies": {
-    "@imgcook/plugin-images": "0.1.0-alpha.7"
+    "qiniu": "^7.3.2",
+    "@imgcook/cli-utils": "^0.1.6",
+    "chalk": "^3.0.0",
+    "fs-extra": "^7.0.1",
+    "request": "^2.88.0"
   }
 }
