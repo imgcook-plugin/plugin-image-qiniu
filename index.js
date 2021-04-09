@@ -82,9 +82,11 @@ const pluginHandler = async (option) => {
         imgObj = JSON.parse(imgConfig) || [];
       }
       const qiniurc = `${homedir}/.imgcook/.qiniu`;
+
+      let qiniuConfig = {};
       if (fs.existsSync(qiniurc)) {
-        let qiniuConfig = fs.readFileSync(qiniurc, "utf8");
-        qiniuConfig = JSON.parse(qiniuConfig) || {};
+        let qiniuConfigStr = fs.readFileSync(qiniurc, "utf8");
+        qiniuConfig = JSON.parse(qiniuConfigStr) || {};
       }
 
       for (let idx = 0; idx < imgArr.length; idx++) {
