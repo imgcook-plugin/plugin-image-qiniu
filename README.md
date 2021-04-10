@@ -29,4 +29,4 @@ Linux & Windows暂未测试。
 
 ## 更多内容
 
-[我的博客](https://yqc.im)
+[我的博客](https://yqc.im/tag/imgcook)
